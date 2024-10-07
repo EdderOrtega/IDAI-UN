@@ -1,0 +1,13 @@
+* {
+  background-color: rgb(20, 37, 88);
+  color: whitesmoke;
+  text-align: center;
+}
+div {
+  text-align: center;
+  border: 10px solid whitesmoke;
+  padding: 50px;
+}
+ol {
+  margin: 10px;
+}
