@@ -1,0 +1,80 @@
+* {
+  text-align: center;
+  margin: 0px;
+}
+main {
+  background-size: cover;
+  background-image: url(./images/party.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+}
+.tabla {
+  width: 90%;
+  margin-left: 80px;
+}
+img {
+  width: 300px;
+}
+table {
+  background-color: skyblue;
+  width: 100%;
+}
+table td h2 {
+  color: aliceblue;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+marquee {
+  background-color: aliceblue;
+  font-size: 20px;
+}
+hr {
+  margin: 50px 0px 50px 0px;
+}
+a {
+  background-color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  color: aliceblue;
+}
+a:hover {
+  background-color: orange;
+}
+.hero {
+  width: 90%;
+  margin-left: 80px;
+}
+.hero img {
+  width: 100%;
+}
+.card {
+  display: grid;
+  margin: 50px;
+}
+.card h3 {
+  font-size: 50px;
+  color: aliceblue;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+.cards {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-left: 80px;
+}
+.cards img {
+  width: 300px;
+  border-radius: 20px;
+  height: 400px;
+}
+h4 {
+  font-size: 20px;
+  color: aliceblue;
+}
+footer {
+  margin-top: 100px;
+}
