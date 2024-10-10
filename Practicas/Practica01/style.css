@@ -1,0 +1,49 @@
+section {
+  display: grid;
+  justify-content: center;
+  font-family: sans-serif;
+}
+span {
+  margin: 10px;
+}
+thead {
+  font-size: x-large;
+}
+th {
+  background-color: #15a3b4;
+  color: aliceblue;
+}
+td {
+  width: 200px;
+  font-size: x-large;
+  text-align: center;
+}
+#id {
+  background-color: #15a3b4;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+table tr:nth-child(odd) {
+  background-color: skyblue;
+}
+table tr:hover {
+  background-color: lightgray;
+}
+table td span:hover {
+  opacity: 0.8;
+}
+.fa-info-circle {
+  color: #17a2b8;
+}
+.fa-edit {
+  color: #28a746;
+}
+.fa-trash-alt {
+  color: red;
+}
+table td,
+table th {
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+}
