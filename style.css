@@ -1,13 +1,45 @@
 * {
-  background-color: rgb(20, 37, 88);
   color: whitesmoke;
   text-align: center;
 }
 div {
+  width: 100%;
   text-align: center;
   border: 10px solid whitesmoke;
-  padding: 50px;
+  border-radius: 30px;
+  margin: 20px;
 }
-ol {
-  margin: 10px;
+body {
+  background-color: #f5eedb;
+}
+main {
+  display: grid;
+  justify-items: center;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: #002f54;
+}
+h2 {
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: #32446a;
+  border-radius: 30px;
+}
+section {
+  display: flex;
+  width: 90%;
+  background-color: #275b7b;
+}
+.practicas {
+  background-color: #002f54;
+}
+
+.tareas {
+  background-color: #1e144e;
 }
