@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+}
+form {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffe699;
+}
+h1 {
+  margin: 20px;
+}
+input {
+  margin: 10px;
+}
+.paque {
+  font-size: 23px;
+  font-weight: bold;
+}
+.btn {
+  width: 100px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}

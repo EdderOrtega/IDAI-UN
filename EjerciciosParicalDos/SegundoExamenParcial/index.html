@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Segundo Examen Parcial</title>
+</head>
+<body>
+  <section>
+    <form action="">
+      <h1>RECIBO TELEFÓNICO</h1>
+      <label for="minutos">Minutos de celular (1.00 c/u)</label> <br>
+      <input type="number" name="minutos" min="0" id="minutos">  
+        <br>
+      <h2>TIPO DE PLAN</h2>
+      <input type="radio" name="tipoPlan" id="soloTelefono" value="soloTelefono">
+      <label for="soloTelefono">Solo teléfono</label> 
+      <br>
+      <input type="radio" name="tipoPlan" id="telefonoInternet" value="telefonoInternet">
+      <label for="telefonoInternet">Teléfono + Internet</label> 
+      <br>
+      <input type="radio" name="tipoPlan" id="telefonoInternetTv" value="telefonoInternetTv">
+      <label for="telefonoInternetTv">Teléfono + Internet + TV</label> 
+        <br> 
+      <h2>OTROS SERVICIOS</h2>
+        <input type="checkbox" name="servicios" id="antivirus">
+        <label for="antivirus">Antivirus</label>
+        <br>
+        <input type="checkbox" name="servicios" id="nube">
+        <label for="nube">Servicio de Nube</label>
+        <br>
+        <input type="checkbox" name="servicios" id="webService">
+        <label for="webService">Web Services</label>
+        <br><br>
+        <label for="paquetes" class="paque">PAQUETES</label><br> <br>
+        <select name="paquetes" id="paquetes">
+          <option value="1">RESIDENCIAL</option>
+          <option value="2">PYMES</option>
+          <option value="3">EMPRESAS</option>
+        </select>
+        <br>
+        <input class="btn" type="submit" value="Calcular">
+    </form>
+  </section>
+</body>
+</html>
