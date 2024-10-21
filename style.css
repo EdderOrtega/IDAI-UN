@@ -2,12 +2,32 @@
   color: whitesmoke;
   text-align: center;
 }
-div {
+.practicas {
+  width: 100%;
+  text-align: center;
+  border: 10px solid whitesmoke;
+  border-radius: 30px;
+  background-color: #002f54;
+}
+.tareas {
   width: 100%;
   text-align: center;
   border: 10px solid whitesmoke;
   border-radius: 30px;
   margin: 20px;
+  background-color: #1e144e;
+}
+.parcialUno {
+  width: 100%;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #f31f1f;
+}
+.parcialDos {
+  width: 100%;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #ff732c;
 }
 body {
   background-color: #f5eedb;
@@ -33,13 +53,6 @@ h2 {
 }
 section {
   display: flex;
-  width: 90%;
+  width: 100%;
   background-color: #275b7b;
-}
-.practicas {
-  background-color: #002f54;
-}
-
-.tareas {
-  background-color: #1e144e;
 }
