@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Idai Burguer</title>
+</head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td class="logo">
+            <img src="./images/IDAI Burger.png" alt="">
+          </td>
+          <td>
+            <h1>Idai burguer</h1>
+            <hr>
+            <h2>Teléfono: 01-23-45-67-89</h2>
+            <p><a href="www.idaiHamburguesas.ioo">Ir a la página web oficial</a></p>
+            <marquee behavior="" direction="">Coding Hamburguers</marquee>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <section>
+      <form action="">
+        <table>
+          <thead>
+            <th colspan="2">
+              Seleccionar producto
+            </th>
+            <th colspan="2">
+              Detalles de la hamburguesa
+            </th>
+            <th>
+              Cantidad y orden
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td >
+                <input type="radio" name="tipoHamburguesa" value="HamSencilla" id="radioHamSencilla">
+                <label for="radioHamSencilla">Hamburguesa Sencilla $35.00</label>
+                <br>
+                <input type="radio" name="tipoHamburguesa" value="HamEspecial" id="radioHamEspecial">
+                <label for="hamEspecial">Hamburguesa Especial $45.00</label>
+                <br>
+                <input type="radio" name="tipoHamburguesa" value="HamDoble" id="radioHamDoble">
+                <label for="radioHamDoble">Hamburguesa Doble $60.00</label>
+                <br>
+                <input type="radio" name="tipoHamburguesa" value="HamSuprema" id="radioHamSuprema">
+                <label for="radioHamSuprema">Hamburguesa Suprema $90.00</label>
+              </td>
+              <td>
+                <input type="radio" name="tipoCarne" value="HamTradicional" id="radioHamSuprema">
+                <label for="radioHamSuprema">Tradicional Especial</label>
+                <br>
+                  <input type="radio" name="tipoCarne" value="HamAngus" id="radioHamSuprema">
+                <label for="radioHamSuprema">Angus</label>
+                <br>
+                  <input type="radio" name="tipoCarne" value="HamPollo" id="radioHamSuprema">
+                <label for="radioHamSuprema">Pollo</label>
+                <br>
+                <input type="radio" name="tipoCarne" value="HamRoast" id="radioHamSuprema">
+                <label for="radioHamSuprema">Roast</label>
+                <br>
+                <input type="radio" name="tipoCarne" value="HamBeef" id="radioHamSuprema">
+                <label for="radioHamSuprema">Beef</label>
+              </td>
+              <td >
+                <input type="checkbox" name="ingTomate" id="ingTomate" value="tomate">
+                <label for="ingTomate">Tomate</label>
+                <br>
+                <input type="checkbox" name="ingCebolla" id="ingCebolla" value="cebolla">
+                <label for="ingCebolla">Cebolla</label>
+                <br>
+                <input type="checkbox" name="ingQuesoAmarillo" id="ingQuesoAmarillo" value="quesoAmarillo">
+                <label for="ingQuesoAmarillo">Queso Amarillo</label>
+                <br>
+                <input type="checkbox" name="ingJamon" id="ingJamon" value="jamon">
+                <label for="ingJamon">Jamon</label>
+                <br>
+                <input type="checkbox" name="ing" id="ingAguacate" value="aguacate">
+                <label for="ingAguacate">Aguacate</label>
+              </td>
+              <td>
+                <input type="checkbox" name="ingCebollaMorada" id="ingCebollaMorada" value="cebollaMorada">
+                <label for="ingCebollaMorada">Cebolla Morada</label>
+                <br>
+                <input type="checkbox" name="ingQuesoGouda" id="ingQuesoGouda" value="quesoGouda">
+                <label for="ingCebolla">Queso gouda</label>
+                <br>
+                <input type="checkbox" name="ingPiña" id="inPiña" value="piña">
+                <label for="ingPiña">Piña</label>
+                <br>
+                <input type="checkbox" name="ingChampiñones" id="ingChampiñones" value="champiñones">
+                <label for="ingChampiñones">Champiñones</label>
+                <br>
+                <input type="checkbox" name="ingPeperoni" id="ingPeperoni" value="peperoni">
+                <label for="ingPeperoni">Peperoni</label>   
+              </td>
+            <td >
+              <label for="cantidadHam">Cantidad </label>
+              <input min="0" type="number" name="cantidadHam" id="cantidadHam">
+              <br>
+              <br>
+              <label for="inputCliente">Cliente</label>
+              <input class="cliente" type="text" name="cliente" id="inputCliente">
+              <br>
+              <br>
+            <label for="listEntrega">Entregar en :</label>
+            <select name="tipoEntrega" id="listEntrega">
+              <option value="1">Domicilio</option>
+              <option value="2">Comer aqui</option>
+              <option value="3">Pick up order</option>
+            </select>
+            </td>
+            </tr>
+          </tbody>
+          <tfoot>
+          </tfoot>
+        </table>
+        <input class="btn" type="submit" value="Enviar datos">
+        <input class="btn" type="reset" value="borrar datos">
+      </form>
+    </section>
+  </body>
+</html>

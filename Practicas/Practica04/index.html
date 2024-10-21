@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrar Usuario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+  <form action="">
+    <label for="nombre">Nombre(s)</label>
+    <input type="text" name="nombre" placeholder="Nombres" required id="nombre">
+    <label for="apellido">Apellido</label>
+    <input type="text" name="apellido" required placeholder="Apellidos" id="apellido">
+    <label for="correo">Correo</label>
+    <input type="email" name="correo" required id="correo" placeholder="ejemplo@gmail.com">
+    <label for="contraseña">Contraseña</label>
+    <input type="password" autocomplete="" required placeholder="Contraseña" name="contraseña" id="contraseña">
+    <label for="telefono">Telefono</label>
+    <input type="text" required placeholder="12-34-56-78-90" name="telefono" id="telefono">
+    <label for="file">seleccionar archivo</label>
+    <input type="file" name="archivo" id="file">
+    <label for="progreso">barra progreso</label>
+    <progress  max="100" value="50"></progress>
+    <br>
+    <label for="boton"> submit</label>
+    <input type="submit">
+    <button type="submit">Enviar datos</button>
+    <label for="reset">borrar datos</label>
+    <input type="reset" value="borrar datos">
+  </form>
+  </section>
+
+</body>
+</html>

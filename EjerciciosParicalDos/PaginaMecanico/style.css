@@ -1,0 +1,111 @@
+:root {
+  --negro: #414141;
+  --oscuro: #103742;
+  --gris: #d8ddd9;
+}
+
+* {
+  margin: 0px;
+}
+body {
+  background: rgb(9, 8, 8);
+  background: linear-gradient(
+    180deg,
+    rgba(9, 8, 8, 1) 0%,
+    rgba(7, 21, 25, 1) 35%,
+    rgba(16, 55, 66, 1) 73%,
+    rgba(11, 82, 88, 1) 100%
+  );
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin: 20px;
+  width: 10%;
+}
+.titulo {
+  flex: 1;
+  text-align: center;
+  margin-right: 200px;
+  font-size: 40px;
+  color: var(--gris);
+}
+h1 {
+  margin: 30px;
+}
+
+form {
+  background-color: rgb(27, 31, 39);
+  border: 10px ridge aliceblue;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  color: var(--gris);
+}
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+th {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+
+input[type="text"] {
+  margin: 10px;
+}
+input[type="radio"] {
+  margin: 10px;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+.pago {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 150px;
+  font-style: italic;
+}
+
+label {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+select {
+  width: 100%;
+  background-color: var(--oscuro);
+  color: var(--gris);
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+.datosPersonales label {
+  margin-right: 30px;
+}
+.datos {
+  display: flex;
+  align-items: center;
+}
+
+.datos label {
+  width: 200px;
+  margin-right: 10px;
+}
