@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+}
+article {
+  border: 1px solid red;
+  margin-bottom: 100px;
+}
+div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid blue;
+  text-align: center;
+  color: aliceblue;
+  align-content: center;
+}
+.bloque div {
+  display: block;
+}
+.enLinea div {
+  display: inline-block;
+}
+.cell div {
+  display: table-cell;
+}
+#relativo {
+  position: relative;
+  margin-left: 100px;
+}
+#absoluto {
+  position: absolute;
+  right: 100px;
+}
+#fijo {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  background-color: chartreuse;
+  left: 300px;
+}
+.div1 {
+  background-color: rebeccapurple;
+}
+.div2 {
+  background-color: royalblue;
+}
+.div3 {
+  background-color: rgb(108, 96, 26);
+}
+.div4 {
+  background-color: orange;
+}
+.div5 {
+  background-color: saddlebrown;
+}
