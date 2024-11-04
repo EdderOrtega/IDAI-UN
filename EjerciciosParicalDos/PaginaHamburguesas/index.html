@@ -24,7 +24,7 @@
       </table>
     </header>
     <section>
-      <form action="">
+      <form id="formulario" action="">
         <table>
           <thead>
             <th colspan="2">
@@ -38,82 +38,82 @@
             </th>
           </thead>
           <tbody>
-            <tr>
-              <td >
-                <input type="radio" name="tipoHamburguesa" value="HamSencilla" id="radioHamSencilla">
+            <tr >
+              <td class="container">
+                <input   type="radio" name="tipoHamburguesa" value="35" id="radioHamSencilla">
                 <label for="radioHamSencilla">Hamburguesa Sencilla $35.00</label>
                 <br>
-                <input type="radio" name="tipoHamburguesa" value="HamEspecial" id="radioHamEspecial">
+                <input type="radio" name="tipoHamburguesa" value="45" id="radioHamEspecial">
                 <label for="radioHamEspecial">Hamburguesa Especial $45.00</label>
                 <br>
-                <input type="radio" name="tipoHamburguesa" value="HamDoble" id="radioHamDoble">
+                <input type="radio" name="tipoHamburguesa" value="60" id="radioHamDoble">
                 <label for="radioHamDoble">Hamburguesa Doble $60.00</label>
                 <br>
-                <input type="radio" name="tipoHamburguesa" value="HamSuprema" id="radioHamSuprema">
+                <input type="radio" name="tipoHamburguesa" value="90" id="radioHamSuprema">
                 <label for="radioHamSuprema">Hamburguesa Suprema $90.00</label>
               </td>
               <td>
-                <input type="radio" name="tipoCarne" value="HamTradicional" id="radioHamTradicional">
+                <input type="radio" name="tipoCarne" value="10" id="radioHamTradicional">
                 <label for="radioHamTradicional">Tradicional Especial</label>
                 <br>
-                  <input type="radio" name="tipoCarne" value="HamAngus" id="radioHamAngus">
+                  <input type="radio" name="tipoCarne" value="30" id="radioHamAngus">
                 <label for="radioHamAngus">Angus</label>
                 <br>
-                  <input type="radio" name="tipoCarne" value="HamPollo" id="radioHamPollo">
+                  <input type="radio" name="tipoCarne" value="20" id="radioHamPollo">
                 <label for="radioHamPollo">Pollo</label>
                 <br>
-                <input type="radio" name="tipoCarne" value="HamRoast" id="radioHamRoast">
+                <input type="radio" name="tipoCarne" value="50" id="radioHamRoast">
                 <label for="radioHamRoast">Roast</label>
                 <br>
-                <input type="radio" name="tipoCarne" value="HamBeef" id="radioHamBeef">
+                <input type="radio" name="tipoCarne" value="70" id="radioHamBeef">
                 <label for="radioHamBeef">Beef</label>
               </td>
               <td >
-                <input type="checkbox" name="ingTomate" id="ingTomate" value="tomate">
+                <input type="checkbox" name="ingredientes" id="ingTomate" value="10">
                 <label for="ingTomate">Tomate</label>
                 <br>
-                <input type="checkbox" name="ingCebolla" id="ingCebolla" value="cebolla">
+                <input type="checkbox" name="ingredientes" id="ingCebolla" value="10">
                 <label for="ingCebolla">Cebolla</label>
                 <br>
-                <input type="checkbox" name="ingQuesoAmarillo" id="ingQuesoAmarillo" value="quesoAmarillo">
+                <input type="checkbox" name="ingredientes" id="ingQuesoAmarillo" value="10">
                 <label for="ingQuesoAmarillo">Queso Amarillo</label>
                 <br>
-                <input type="checkbox" name="ingJamon" id="ingJamon" value="jamon">
+                <input type="checkbox" name="ingredientes" id="ingJamon" value="10">
                 <label for="ingJamon">Jamon</label>
                 <br>
-                <input type="checkbox" name="ing" id="ingAguacate" value="aguacate">
+                <input type="checkbox" name="ingredientes" id="ingAguacate" value="10">
                 <label for="ingAguacate">Aguacate</label>
               </td>
               <td>
-                <input type="checkbox" name="ingCebollaMorada" id="ingCebollaMorada" value="cebollaMorada">
+                <input type="checkbox" name="ingredientes" id="ingCebollaMorada" value="10">
                 <label for="ingCebollaMorada">Cebolla Morada</label>
                 <br>
-                <input type="checkbox" name="ingQuesoGouda" id="ingQuesoGouda" value="quesoGouda">
+                <input type="checkbox" name="ingredientes" id="ingQuesoGouda" value="10">
                 <label for="ingQuesoGouda">Queso gouda</label>
                 <br>
-                <input type="checkbox" name="ingPiña" id="ingPiña" value="piña">
+                <input type="checkbox" name="ingredientes" id="ingPiña" value="10">
                 <label for="ingPiña">Piña</label>
                 <br>
-                <input type="checkbox" name="ingChampiñones" id="ingChampiñones" value="champiñones">
+                <input type="checkbox" name="ingredientes" id="ingChampiñones" value="10">
                 <label for="ingChampiñones">Champiñones</label>
                 <br>
-                <input type="checkbox" name="ingPeperoni" id="ingPeperoni" value="peperoni">
-                <label for="ingPeperoni">Peperoni</label>   
+                <input type="checkbox" name="ingredientes" id="peperoni" value="10">
+                <label for="peperoni">Peperoni</label>   
               </td>
             <td >
               <label for="cantidadHam">Cantidad </label>
-              <input min="0" type="number" name="cantidadHam" id="cantidadHam">
+              <input  type="text" name="cantidadHam" id="cantidadHam">
               <br>
               <br>
               <label for="inputCliente">Cliente</label>
-              <input class="cliente" type="text" name="cliente" id="inputCliente">
+              <input class="cliente" type="text" name="cliente" id="nombreCliente">
               <br>
               <br>
             <label for="listEntrega">Entregar en :</label>
-            <select name="tipoEntrega" id="listEntrega">
-              <option value="1">Domicilio</option>
-              <option value="2">Comer aqui</option>
-              <option value="3">Pick up order</option>
+            <select name="tipoEntrega" id="tipoEntrega">
+              <option value="Domicilio">Domicilio</option>
+              <option value="Comer aquí">Comer aquí</option>
+              <option value="Pick up order">Pick up order</option>
             </select>
             </td>
             </tr>
@@ -121,9 +121,11 @@
           <tfoot>
           </tfoot>
         </table>
-        <input class="btn" type="submit" value="Enviar datos">
+  
+        <button id="boton" class="btn" type="button">Enviar datos</button>
         <input class="btn" type="reset" value="borrar datos">
       </form>
     </section>
+      <script src="./script.js"></script>
   </body>
 </html>
