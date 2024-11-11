@@ -29,6 +29,12 @@
   border-radius: 30px;
   background-color: #ff732c;
 }
+.parcialTres {
+  width: 100%;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #2c79ff;
+}
 body {
   background-color: #f5eedb;
 }

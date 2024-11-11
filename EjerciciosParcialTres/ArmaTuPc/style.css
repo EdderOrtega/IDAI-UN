@@ -1,0 +1,20 @@
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: large;
+}
+.tabla {
+  text-align: center;
+}
+.titleSection {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  background-color: royalblue;
+}
