@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tercer Examen Parcial</title>
+
+<body>
+    <!-- <form action=""></form> -->
+    <form id="calculoMinutos" action="ReciboTelefonico(JS).html" method="GET">
+        <h1>RECIBO TELEFONICO</h1>
+        <label for="" >Minutos de celular (10.00 MXN c/u)</label>
+        <br>
+        <input type="number" id="minCel" value="1">
+
+        <hr>
+        <label for="">TIPO DE PLAN</label>
+        <br>
+        <input type="radio" name="plan" value="telefono" >Solo teléfono $500<br>
+        <input type="radio" name="plan" value="telefonoInternet">Teléfono + Internet $650<br>
+        <input type="radio" name="plan" value="telefonoInternetTv">Teléfono + Internet + TV $800<br>
+        <input type="radio" name="plan" value="TelefonoInternetTvDos">Teléfono + Internet(100 mbps) + 2 TV $950<br>
+        <hr>
+        <label for="">OTROS SERVICIOS</label>
+        <br>
+        <input type="checkbox" name="otros1" value="50">Antivirus<br>
+        <input type="checkbox" name="otros2" value="70">Serivicio de Nube<br>
+        <input type="checkbox" name="otros3" value="90">Web Services<br>
+        <input type="checkbox" name="otros4" value="110">Firewall<br>
+        <hr>
+        <label for="">PAQUETES</label>
+        <br>
+        <select name="paquetes">
+            <option value="100">Residencial</option>
+            <option value="150">PYMES</option>
+            <option value="200">Empresas</option>
+              <option value="50">Universidades</option>
+        </select>
+
+        <hr>
+        <div class="result">
+			<input type="text" id="resultado"></p>
+		</div>	
+
+        <button type="button" onclick="calcular()">Calcular</button>
+
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

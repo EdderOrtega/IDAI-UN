@@ -1,0 +1,12 @@
+body {
+  background-color: #e7c010f3;
+}
+
+h1 {
+  font: "broadway";
+}
+
+label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
